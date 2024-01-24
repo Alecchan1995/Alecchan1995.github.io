@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+		//alert(window.availWidth);
+		window.moveTo(50,100)
+		var data;
+		var randomX = Math.floor(Math.random() * screen.width);
+		var randomY = Math.floor(Math.random() * screen.height);
+		//console.log("------",screenWidth,"-------",screenHeight);
+			setInterval(function() {
+			  	var data = window.open('./open.html', '_blank', config='width=500px,height=200px,left=0px,top=0px');
+				data.moveBy(100,200);
+			}, 1000);
+			function opennew(){
+				data = window.open('open.html', '_blank', 'width=320px,height=320px,left=100px,top=100px');
+				//data.document.write('<p>hihihihi</p>')
+			}
+			function movenew(){
+				window.document.moveBy(100,200);
+			}
+			
+		</script>
+		<button onclick="opennew()">open new</button>
+		<button onclick="movenew()">move new</button>
+	</body>
+</html>
+
+
