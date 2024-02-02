@@ -3,6 +3,10 @@ body {
   margin:0px;
   padding:0px;
   background-color:#FFF8DC;
+  /*background-image:url('./picture/3118257_20220807163334100070_0.jpg');
+  /*background-position: center; /* Center the image */
+  /*background-repeat: no-repeat; /* Do not repeat the image */
+  color:black;
 }
 .carousel_body{
   margin-top:100px;
@@ -15,7 +19,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: none;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -23,7 +27,7 @@ ul {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 8px 8px;
   text-decoration: none;
@@ -32,12 +36,16 @@ li a {
 .head_left{
 	float: left;
 }
+.head_right{
+	float: right;
+}
 table, th, td {
   border: 1px solid black;
   border-radius: 10px;
 }
-li a:hover {
+li.head_left a:hover {
   background-color: #111;
+  color:white;
 }
 
 .active {
@@ -60,7 +68,7 @@ li a:hover {
 .picturebox{
 	width:130px;
 	height:180px;
-	background-image:url("tree.jfif");
+	background-image:url("./picture/tree.jfif");
 	background-position:center;
 	background-repeat:no-repeat;
 	border-radius:10px;
