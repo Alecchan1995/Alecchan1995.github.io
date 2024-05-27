@@ -54,9 +54,9 @@ li.head_left a:hover {
 
 .name_right{
 	margin-left:10px;
-	margin-top:50px;
+	margin-top:70px;
 	align-items: center;
-	width:250px;
+	width:450px;
 	height:180px;
 }
 .headone{
@@ -66,10 +66,10 @@ li.head_left a:hover {
 	justify-content:center;
 }
 .picturebox{
-	width:130px;
-	height:180px;
-	background-image:url("./picture/tree.jfif");
-	background-position:center;
+	width:230px;
+	height:400px;
+	background-image:url("./picture/myself.PNG");
+	background-position:top;
 	background-repeat:no-repeat;
 	border-radius:10px;
 }
@@ -115,12 +115,12 @@ li.slide {
 }
 
 .slide:nth-of-type(2) {
-  background-color: #F25C05;
+  background-color: #F2E205;
   left: 100%;
 }
 
 .slide:nth-of-type(3) {
-  background-color: #495F8C;
+  background-color: #F2E205;
   left: 200%;
 }
 
