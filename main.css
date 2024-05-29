@@ -68,9 +68,6 @@ li.head_left a:hover {
 .picturebox{
 	width:230px;
 	height:400px;
-	background-image:url("./picture/myself.PNG");
-	background-position:top;
-	background-repeat:no-repeat;
 	border-radius:10px;
 }
 .content{
